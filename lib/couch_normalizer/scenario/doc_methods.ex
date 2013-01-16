@@ -60,6 +60,8 @@ defmodule CouchNormalizer.Scenario.DocMethods do
   end
 
 
+
+
   # Internal fuctions.
   # You shouldn't call them directly from scenario.
 
