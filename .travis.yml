@@ -1,0 +1,9 @@
+language: erlang
+script: "make compile && make test"
+notifications:
+  recipients:
+    - couch_normalizer@noreply.github.com
+otp_release:
+  - R15B02
+  - R15B01
+  - R15B
