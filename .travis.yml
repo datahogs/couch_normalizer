@@ -1,0 +1,10 @@
+language: erlang
+install: "make get-deps"
+script: "make compile && make test"
+notifications:
+  recipients:
+    - opak.alexandr@gmail.com
+otp_release:
+  - R15B02
+  - R15B01
+  - R15B
